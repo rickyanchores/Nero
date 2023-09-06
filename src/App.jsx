@@ -7,10 +7,9 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Nero</h1>
       <Home />
     </div>
   )
 }
 
-export default App
+export default App;
