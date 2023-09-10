@@ -3,7 +3,7 @@ import Card from '../../Components/Card/Card'
 
 const Home = () => {
   return (
-    <div className='Home'>
+    <div className='Home m-5 lg:flex'>
       <h1>Home</h1>
       <Card />
       <Card />
@@ -12,4 +12,5 @@ const Home = () => {
   )
 }
 
-export default Home
+export default Home;
+
