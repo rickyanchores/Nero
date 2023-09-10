@@ -1,16 +1,12 @@
-import React from 'react'
-import Card from '../../Components/Card/Card'
+import React from 'react';
+import backgroundImage from "../../Images/bg-image.avif"; // Replace with the actual path to your background image
 
 const Home = () => {
   return (
-    <div className='Home m-5 lg:flex'>
-      <h1>Home</h1>
-      <Card />
-      <Card />
-      <Card />
+    <div className='min-h-screen bg-black w-screen flex items-center justify-center bg-center bg bg-no-repeat' style={{ backgroundImage: `url(${backgroundImage})` }}>
+      <p className='text-5xl font-thin text-white'>Don't BI.Just Search</p>
     </div>
-  )
+  );
 }
 
 export default Home;
-
