@@ -7,6 +7,8 @@ import Footer from './Pages/Footer/Footer'
 import About from './Pages/About/About'
 import Banner from './Pages/Banner/Banner'
 import Product from './Pages/Product/Product'
+import Analysis from './Pages/Analysis/Analysis'
+import Learn from './Pages/Learn/Learn'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -20,6 +22,8 @@ function App() {
       </Routes>
       <Home />
       <Product />
+      <Analysis />
+      <Learn />
       <About />
       <Banner />
       <Footer />
