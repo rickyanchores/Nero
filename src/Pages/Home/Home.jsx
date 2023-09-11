@@ -4,7 +4,7 @@ import backgroundImage from "../../Images/bg-image.avif"; // Replace with the ac
 const Home = () => {
   return (
     <div className='min-h-screen bg-black w-screen flex items-center justify-center bg-center bg bg-no-repeat' style={{ backgroundImage: `url(${backgroundImage})` }}>
-      <p className='text-5xl font-thin text-white'>Don't BI.Just Search</p>
+      <p className='text-5xl font-thin text-white'>Don't BI. Just Search</p>
     </div>
   );
 }

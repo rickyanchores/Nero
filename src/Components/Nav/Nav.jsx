@@ -13,6 +13,10 @@ const Nav = () => {
             href: "/product"
         },
         {
+            name: "About",
+            href: "/about"
+        },
+        {
             name: "Learn",
             href: "/learm"
         }
@@ -20,7 +24,7 @@ const Nav = () => {
 
   return (
     <div className='Nav flex justify-around items-center bg-black p-5'>
-        <div className="logo">Nav</div>
+        <div className="logo bg-orange-700 p-5 rounded-full">Nav</div>
         <ul className="navLinks flex justify-around">
             {navList.map((link) => {
                 return(
@@ -33,4 +37,4 @@ const Nav = () => {
   )
 }
 
-export default Nav
+export default Nav;
